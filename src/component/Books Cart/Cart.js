@@ -13,15 +13,6 @@ const Cart = () => {
         .then(data => setBooks(data))
     },[])
         
-    const handleAddProduct = () => {
-        fetch(`http://localhost:5000/addItems`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(book)
-        })}
-        
 
     return (
         <div>
