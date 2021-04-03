@@ -1,9 +1,5 @@
-import { UserContext } from './../../App';
 import React from 'react';
-import Book from '../Books Container/books';
-import Cart from '../Books Cart/Cart';
 import './Header.css';
-import { useContext } from 'react';
 
 const Header = () => {
     return (

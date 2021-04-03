@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import fakeData from '../../fakeData.json';
 import Book from '../Books Container/books';
 import './Cart.css';
 
@@ -13,14 +12,7 @@ const Cart = () => {
         .then(res => res.json())
         .then(data => setBooks(data))
     },[])
-
         
-    // const bookName = book.map(title => title.name);
-    // const bookWritter = book.map(person => person.writter);
-    // const bookPrice = book.map(item => item.price);
-    // const bookImage = book.map(img => img.image);
-        
-    
     const handleAddProduct = () => {
         fetch(`http://localhost:5000/addItems`, {
             method: 'POST',
