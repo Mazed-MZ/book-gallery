@@ -1,0 +1,24 @@
+.cart{
+    margin: 2%;
+    position: relative;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: lightblue;
+    box-shadow: 10px 10px 20px gray;
+}
+.cart img{
+    margin-left: 20%;
+    padding: 1%;
+}
+.cart-div{
+    margin-left: 20%;
+    padding: 1%;
+}
+.cart img{
+    width: 250px;
+}
+#cart-text{
+    margin: 5%;
+}

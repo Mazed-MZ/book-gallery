@@ -1,0 +1,13 @@
+.button{
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 200%;
+    color: white;
+    background: navy;
+    margin-left: 38%;
+    margin-top: 10%;
+    box-shadow: 5px 5px 20px gray;
+}
+.button:hover{
+    background: black;
+}
